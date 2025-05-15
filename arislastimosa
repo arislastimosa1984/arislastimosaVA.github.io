@@ -1,0 +1,163 @@
+<link rel="stylesheet" href="style.css" />
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 2em;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #1c1c1c;
+}
+
+.hero p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+/* Services Section */
+.services {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #1c1c1c;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.service {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.service h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #1c1c1c;
+}
+
+.service p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+}
+
+.cta p {
+  font-size: 1em;
+  margin-top: 25px;
+  color: #ccc;
+}
+
+/* Form Styles */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #e0e0e0;
+  color: #333;
+  text-align: center;
+  padding: 25px 20px;
+  font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
